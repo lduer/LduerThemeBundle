@@ -1,0 +1,30 @@
+{
+    "name": "lduer/kimai-theme-bundle",
+    "description": "A Kimai 2 plugin, which adds some twig additions and base-settings for other bundles",
+    "type": "kimai-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lduer",
+            "email": "duerlukas@gmail.com"
+        }
+    ],
+    "require": {
+        "kimai/kimai2-composer": "*"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.10"
+    },
+    "keywords": [
+        "kimai",
+        "kimai-plugin"
+    ],
+    "autoload": {
+        "psr-4": { "KimaiPlugin\\LduerThemeBundle\\": "" }
+    },
+    "extra": {
+        "kimai": {
+            "name": "LduerThemeBundle"
+        }
+    }
+}

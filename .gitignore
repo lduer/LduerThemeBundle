@@ -1,0 +1,8 @@
+nbproject/*
+.idea
+vendor
+composer.lock
+package-lock.json
+
+# Ignore cache files from php cs fixer
+.php_cs.cache
