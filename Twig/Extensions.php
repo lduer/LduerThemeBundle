@@ -30,7 +30,7 @@ class Extensions extends ExtensionBase
      * @param RequestStack $requestStack
      * @param LocaleSettings $localeSettings
      */
-    public function __construct(RequestStack $requestStack, LocaleSettings $localeSettings, $languages)
+    public function __construct(RequestStack $requestStack, LocaleSettings $localeSettings)
     {
         // overwrite icons with icon additions
         parent::$icons = array_merge(parent::$icons, self::$icon_additions);
